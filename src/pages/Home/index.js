@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 const Home = () => {
     return (
-        <View>
+        <View style={styles.page}>
             <Text>Home Page</Text>
         </View>
     )
@@ -11,4 +11,9 @@ const Home = () => {
 
 export default Home
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    page: {
+        backgroundColor: 'yellow',
+        flex: 1
+    }
+})
