@@ -5,6 +5,8 @@ import IcJersey from './jersey.svg';
 import IcJerseyActive from './jersey-active.svg';
 import IcProfile from './profile.svg';
 import IcProfileActive from './profile-active.svg';
+import IcCart from './shopping-cart.svg';
+import IcSearch from './search.svg';
 
 export {
     IcLogo,
@@ -14,4 +16,6 @@ export {
     IcJerseyActive,
     IcProfile,
     IcProfileActive,
+    IcCart,
+    IcSearch,
 };
